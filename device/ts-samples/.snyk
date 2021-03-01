@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - azure-iot-device > lodash:
+        patched: '2021-03-01T15:06:33.943Z'
+    - azure-iot-device > machina > lodash:
+        patched: '2021-03-01T15:06:33.943Z'
+    - azure-iot-device-amqp > machina > lodash:
+        patched: '2021-03-01T15:06:33.943Z'
+    - azure-iot-device-mqtt > machina > lodash:
+        patched: '2021-03-01T15:06:33.943Z'
+    - azure-iot-device-amqp > azure-iot-device > lodash:
+        patched: '2021-03-01T15:06:33.943Z'
+    - azure-iot-device-http > azure-iot-device > lodash:
+        patched: '2021-03-01T15:06:33.943Z'
+    - azure-iot-device-mqtt > azure-iot-device > lodash:
+        patched: '2021-03-01T15:06:33.943Z'
+    - azure-iot-device-amqp > async > lodash:
+        patched: '2021-03-01T15:06:33.943Z'
+    - azure-iot-device-amqp > azure-iot-device > machina > lodash:
+        patched: '2021-03-01T15:06:33.943Z'
+    - azure-iot-device-http > azure-iot-device > machina > lodash:
+        patched: '2021-03-01T15:06:33.943Z'
+    - azure-iot-device-mqtt > azure-iot-device > machina > lodash:
+        patched: '2021-03-01T15:06:33.943Z'
+    - azure-iot-device-amqp > azure-iot-amqp-base > machina > lodash:
+        patched: '2021-03-01T15:06:33.943Z'
+    - azure-iot-device-mqtt > azure-iot-mqtt-base > machina > lodash:
+        patched: '2021-03-01T15:06:33.943Z'
+    - azure-iot-device-amqp > azure-iot-amqp-base > async > lodash:
+        patched: '2021-03-01T15:06:33.943Z'

@@ -7,7 +7,9 @@
     "npmlockrefresh": "npm i --package-lock-only",
     "lint": "tslint --project . -c ../../tslint.json",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,8 @@
     "azure-iot-device-http": "1.13.3",
     "azure-iot-device-mqtt": "1.15.3",
     "tslint": "^6.1.0",
-    "typescript": "2.9.2"
-  }
+    "typescript": "2.9.2",
+    "snyk": "^1.463.0"
+  },
+  "snyk": true
 }
