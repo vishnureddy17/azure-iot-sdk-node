@@ -10,7 +10,7 @@
     "azure-iot-common": "1.12.7",
     "azure-iot-mqtt-base": "1.12.7",
     "azure-iot-provisioning-device": "1.8.7",
-    "debug": "^4.1.1",
+    "debug": "^4.3.2",
     "machina": "^4.0.2",
     "uuid": "^3.3.2"
   },
